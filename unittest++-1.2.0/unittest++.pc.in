@@ -1,0 +1,14 @@
+# pkg-config source file
+
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: unittest++
+Description: unittest++ is a unit testing framework for C++
+Version: @PACKAGE_VERSION@
+Requires:
+Conflicts:
+Libs: -L${libdir} -lunittest++
+Cflags: -I${includedir}/unittest++

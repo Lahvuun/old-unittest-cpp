@@ -1,0 +1,29 @@
+Release 1.2.0
+
+- First pass at documentation. 
+- More detailed error crash catching in fixtures. 
+- Standard streams used for printing objects under check. 
+- This should allow the use of standard class types such as std::string or other custom classes with stream operators to ostream. 
+- Standard streams can be optionally compiled off by defining UNITTEST_USE_CUSTOM_STREAMS in Config.h 
+- Added named test suites 
+- Added CHECK_ARRAY2D_CLOSE 
+- Posix library name is libUnitTest++.a now 
+- Floating point numbers are postfixed with f in the failure reports
+
+Release 1.1.1
+
+- Bug fixes
+
+Release 1.1.0
+
+- CHECK macros do not have side effects even if one of the parameters changes state
+- Removed CHECK_ARRAY_EQUAL (too similar to CHECK_ARRAY_CLOSE)
+- Added local and global time constraints
+- Removed dependencies on strstream
+- Improved Posix signal to exception translator
+- Failing tests are added to Visual Studio's error list
+- Fixed Visual Studio projects to work with spaces in directories
+
+Release 1.0.0
+
+- Initial release
