@@ -1,0 +1,8 @@
+unittestcpp is a unit testing framework for C++ 
+designed for simplicity and portability. Features 
+include no explicit test registration, good crash 
+handling, fixtures, rich condition-checking 
+functionality, minimal footprint for embedded 
+environments.
+
+see test/ for examples

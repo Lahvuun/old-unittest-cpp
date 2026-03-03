@@ -9,4 +9,4 @@ https://github.com/unittest-cpp/unittest-cpp/
 
 - unittest++-1.1.0 - https://web.archive.org/web/20061013155145if_/http://download.gna.org:80/underware/sources/unittest++-1.1.0.tar.gz
 
-- unittest++-1.0.0 - WANTED
+- unittestcpp-1.0.0 - https://web.archive.org/web/20061013155157/http://download.gna.org:80/underware/sources/unittestcpp-1.0.0.tar.gz

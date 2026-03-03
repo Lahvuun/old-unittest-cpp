@@ -1,0 +1,6 @@
+Wed Mar 29 2006  proppy  <johan@mekensleep.com>
+
+	* Release 1.0.0
+	* include/unittestcpp/Makefile.am: 
+	fixed missing wildcard for Linux/* and Win32/* includes
+	
